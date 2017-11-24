@@ -1,0 +1,15 @@
+.c-footer {
+  border-top: 1px solid var(--f-color-gry60);
+  padding: var(--f-margin-L);
+
+  &_copy {
+    text-align: center;
+    color: var(--f-color-gry60);
+    font-size: var(--f-font-size-XS);
+    
+    span {
+      vertical-align: middle;
+      font-size: var(--f-font-size-L);
+    }
+  }
+}

@@ -1,0 +1,102 @@
+.u-text {
+
+  &_size-reset {
+    font-size: 0;
+    line-height: 0;
+  }
+
+  &_size-XS {
+    font-size: var(--f-font-size-XS);
+  }
+  &_size-S {
+    font-size: var(--f-font-size-S);
+  }
+  &_size-M {
+    font-size: var(--f-font-size-M);
+  }
+  &_size-L {
+    font-size: var(--f-font-size-L);
+  }
+  &_size-XL {
+    font-size: var(--f-font-size-XL);
+  }
+  &_size-XXL {
+    font-size: var(--f-font-size-XXL);
+  }
+
+  &_left {
+    text-align: left;
+  }
+  &_center {
+    text-align: center;
+  }
+  &_right {
+    text-align: right;
+  }
+
+  &_color-main {
+    color: var(--f-color-main);
+  }
+
+  &_color-warning {
+    color: var(--f-color-warning);
+  }
+
+  &_color-white {
+    color: var(--f-color-white);
+  }
+
+  &_color-gry60 {
+    color: var(--f-color-gry60);
+  }
+
+  &_color-link {
+    color: var(--f-link-text-color);
+  }
+
+  &_link{
+    color: var(--f-link-text-color);
+    text-decoration: underline;
+  }
+
+  &_lineheight-reset {
+    line-height: 1;
+  }
+  &_lineheight-XS {
+    line-height: var(--f-line-height-XS);
+  }
+  &_lineheight-S {
+    line-height: var(--f-line-height-S);
+  }
+  &_lineheight-MS {
+    line-height: var(--f-line-height-MS);
+  }
+  &_lineheight-M {
+    line-height: var(--f-line-height-M);
+  }
+  &_lineheight-L {
+    line-height: var(--f-line-height-L);
+  }
+
+  &_lineheight-XL {
+    line-height: var(--f-line-height-XL);
+  }
+
+  &_weight-bold {
+    font-weight: bold;
+  }
+  &_weight-normal{
+    font-weight: normal;
+  }
+  &_underline {
+    text-decoration: underline;
+  }
+  &_indent-XS {
+    text-indent: -18px;
+    padding-left: 18px;
+  }
+  &_indent-S {
+    text-indent: -22px;
+    padding-left: 22px;
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "source": "./src/html/pages",
+  "destination": "./dist",
+  "clean": false,
+  "metadata": {
+    "title": "sample",
+    "description": "",
+    "apiPath": "//localhost:4000/"
+  },
+  "plugins": {
+    "metalsmith-ignore": {},
+    "metalsmith-layouts": {
+      "engine": "handlebars",
+      "directory": "./src/html/templates",
+      "partials": "./src/html/partials",
+      "default": "default.html"
+    },
+    "metalsmith-in-place": {
+      "engine": "handlebars",
+      "directory": "./src/html/templates",
+      "partials": "./src/html/partials"
+    },
+    "metalsmith-watch": {
+      "paths": {
+        "./src/html/templates/**/*": "**/*",
+        "./src/html/partials/**/*": "**/*",
+        "./src/html/pages/**/*": "**/*"
+      }
+    }
+  }
+}

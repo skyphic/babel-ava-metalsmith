@@ -1,0 +1,5 @@
+config/
+src/js/sp/shared/polyfill
+src/js/sp/entry/daypicker/flatpickr.js
+src/js/sp/entry/daypicker/ja.js
+

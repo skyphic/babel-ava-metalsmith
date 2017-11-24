@@ -1,0 +1,38 @@
+.u-display  {
+
+  &_block {
+    display: block;
+  }
+
+  &_none {
+    display: none;
+  }
+
+  &_inline {
+    display: inline-block;
+  }
+
+  &_table {
+    width: 100%;
+    display: table;
+    border-collapse: collapse;
+
+    &-cell {
+      display: table-cell;
+    }
+  }
+}
+.u-float  {
+  &_left {
+    float: left;
+  }
+
+  &_right {
+    float: right;
+  }
+
+  &_clear {
+    @include clearfix;
+  }
+}
+

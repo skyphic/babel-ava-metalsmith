@@ -1,0 +1,17 @@
+{
+  "parser": "babel-eslint",
+  "extends": [],
+  "plugins": [
+
+  ],
+  "rules": {
+    "semi": 0,
+    "no-magic-numbers": ["error", { "ignore": [0] }],
+    "no-nested-ternary": "off",
+    "no-param-reassign": 0
+  },
+  "env": {
+    "browser": true,
+    "node": true
+  }
+}

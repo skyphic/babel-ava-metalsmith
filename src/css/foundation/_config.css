@@ -1,0 +1,49 @@
+/*----------------------------------
+Config variables etc
+----------------------------------*/
+:root {
+  /* html font-size: 62.5%; */
+
+  --f-font-size-XS: 1.0rem;/* 10px */
+  --f-font-size-S: 1.2rem;/* 12px */
+  --f-font-size-M: 1.4rem;/* 14px */
+  --f-font-size-L: 1.6rem;/* 16px */
+  --f-font-size-XL: 1.8rem;/* 18px */
+  --f-font-size-XXL: 2.0rem;/* 20px */
+
+  --f-line-height-XS: 1.2;
+  --f-line-height-S: 1.4;
+  --f-line-height-MS: 1.5;
+  --f-line-height-M: 1.75;
+  --f-line-height-L: 2;
+  --f-line-height-XL: 2.2;
+
+  --f-margin-XS: 4px;
+  --f-margin-S: 8px;
+  --f-margin-M: 12px;
+  --f-margin-L: 16px;
+  --f-margin-XL: 20px;
+  --f-margin-XXL: 24px;
+  --f-margin-XXXL: 28px;
+
+  --f-color-main: #F0232D;
+  --f-color-live: #F0D025;
+  --f-color-default: #131313;
+  --f-color-white: #FEFEFE;
+  --f-color-gry90: #ECECEC;
+  --f-color-gry80: #D4D4D4;
+  --f-color-gry60: #999;
+  --f-color-gry25: #414141;
+
+  --f-color-sun: #F0232D;
+  --f-color-sat: #2533B4;
+
+
+  --f-color-warning: #4E0006;
+  --f-color-warning-bg: #FEE8E9;
+  --f-border-warning: #FCCBCC;
+
+  --f-link-text-color: #0091EA;
+
+  --f-color-white-bg: #FFF;
+}
